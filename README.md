@@ -1,7 +1,6 @@
 # Bakery Landing Page
 
-![Bakery Landing Page](screenshot.png)
-![image](https://github.com/tantruongg23/bakery-landing-page/assets/101712329/3438b212-7d9e-412f-8d17-cb662c9b1f10)
+![Bakery Landing Page](https://github.com/tantruongg23/bakery-landing-page/assets/101712329/3438b212-7d9e-412f-8d17-cb662c9b1f10)
 This is a landing page for a bakery shop. The page is designed to introduce the shop, its products, and contact information.
 
 ## Deployment
