@@ -22,6 +22,8 @@ You can view the live production of the landing page [here](https://bakery-landi
 
 - **HTML5**
 - **CSS3**
+- **JAVASCRIPT**
+- **JAVASCRIPT LIBRARIES: OWL.CAROUSEL, LIGHTBOX,..**
 
 
 ## Author
