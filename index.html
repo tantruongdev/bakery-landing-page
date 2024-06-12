@@ -31,7 +31,7 @@
   <header>
     <div class="header__content">
       <span class="header__logo">BAKE</span>
-      <nav>
+      <nav class="menu">
         <ul class="header__nav">
           <li class="header__nav--active"><a href="#">HOME</a></li>
           <li><a href="#intro">ABOUT</a></li>
@@ -41,6 +41,16 @@
           <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
+      <i class="fa-solid fa-bars header__bars"></i>
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const menuButton = document.querySelector('.header__bars');
+          const menu = document.querySelector('.menu');
+          menuButton.addEventListener('click', function () {
+            menu.classList.toggle('active');
+          });
+        });
+      </script>
     </div>
   </header>
 
@@ -137,7 +147,7 @@
   </section>
   <!-- SERVICES -->
   <section class="services" id="services">
-    <h2 class="services__header">OUR SERVICES</h2>
+    <h2 class="services__header section__title">OUR SERVICES</h2>
     <div class="services__content">
       <div class="services__item">
         <i class="fa-solid fa-circle-half-stroke"></i>
@@ -176,8 +186,8 @@
     </div>
   </section>
   <!-- GALLERY -->
-  <section class="gallery" id="gallery">
-    <h2 class="gallery__header">OUR GALLERY</h2>
+  <section class="gallery " id="gallery">
+    <h2 class="gallery__header section__title">OUR GALLERY</h2>
     <div class="gallery__content">
       <figure class="gallery__item g1-13">
         <a href="./images/g1.jpg" data-lightbox="gallery">
@@ -249,7 +259,7 @@
   </section>
   <!-- TEAM -->
   <section class="team">
-    <h2 class="team__header">BAKE TEAM</h2>
+    <h2 class="team__header section__title">BAKE TEAM</h2>
     <div class="team__content">
       <div class="team__item">
         <img src="./images/t1.jpg" alt="" />
@@ -355,7 +365,7 @@
         <img src="./images/t2.jpg" alt="" />
         <div class="team__text">
           <h4 class="team__title">John Simon</h4>
-          <p class="team__desc">-Cake Maker</p>s
+          <p class="team__desc">-Cake Maker</p>
         </div>
         <div class="team__details">
           <h4 class="team__title">John Simon</h4>
@@ -375,7 +385,7 @@
   </section>
   <!-- FEEDBACK -->
   <section class="feedback" id="feedback">
-    <h2 class="feedback__header">TESTIMONIALS</h2>
+    <h2 class="feedback__header section__title">TESTIMONIALS</h2>
     <div class="feedback__content">
       <div class="owl-carousel owl-theme">
         <div class="item">
@@ -410,7 +420,7 @@
   </section>
   <!-- CONTACT -->
   <section class="contact" id="contact">
-    <h2 class="contact__header">CONTACT</h2>
+    <h2 class="contact__header section__title">CONTACT</h2>
     <div class="contact__form">
       <form action="">
         <input type="text" placeholder="Name" />
@@ -573,6 +583,7 @@
         0: {
           items: 1,
         },
+
       },
     });
   </script>
